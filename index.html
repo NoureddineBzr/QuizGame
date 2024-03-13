@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App Demo</title>
+
+    
     <link rel="stylesheet" href="style.css">
-    <title>Quiz Application</title>
-    <script src="quizApp.js" defer></script>
     <script src="questions.js" defer></script>
+    <script src="quizApp.js" defer></script>
 </head>
 <body>
-    <div class="start-btn"><button>Start Quiz</button></div>
-    <div class="info-box">
-        <div class="info-title"><span>Rules of this Quiz</span></div>
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
         <div class="info-list">
-            <div class="info">1. You will have only <span>15 seconds </span> per each question.</div>
-            <div class="info">2. Once you select your answer, you can't change it.</div>
-            <div class="class">3.You can't select any option once time goes off.</div>
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
             <div class="info">4. You can't exit from the Quiz while you're playing.</div>
             <div class="info">5. You'll get points on the basis of your correct answers.</div>
         </div>
@@ -24,43 +26,39 @@
             <button class="restart">Continue</button>
         </div>
     </div>
-
-    <div class="quiz-box">
+    <div class="quiz_box">
         <header>
-            <div class="title">Simple Quiz Game Application</div>
+            <div class="title">Demo Quiz App in JavaScript</div>
             <div class="timer">
-                <div class="time-left-txt">Time Left</div>
-                <div class="timer-sec"></div>
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
             </div>
-            <div class="time-line"></div>
+            <div class="time_line"></div>
         </header>
         <section>
-            <div class="que-text"></div>
-            <div class="options-list"></div>
-
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
         </section>
         <footer>
-            <div class="total-que"> </div>
-            <button class="next-btn">Next Question</button>
-        </footer>  
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
     </div>
-
-    <div class="result-box">
+    <div class="result_box">
         <div class="icon">
-            <i class="crown"></i>
+            <i class="fas fa-crown"></i>
         </div>
-        <div class="complete-text">You have complated your Quiz</div>
-        <div class="score-text"></div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
         <div class="buttons">
             <button class="restart">Replay Quiz</button>
             <button class="quit">Quit Quiz</button>
         </div>
     </div>
 
-
-
-
-    
-    
 </body>
 </html>
