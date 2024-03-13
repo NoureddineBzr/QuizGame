@@ -1,48 +1,6 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+*{
     margin: 0;
     padding: 0;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  
-  .options-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .options-list li {
-    margin-bottom: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    padding: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .options-list li:hover {
-    background-color: #e0e0e0;
-  }
-  
-  .score, .timer {
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
-  .score span, .timer span {
-    font-weight: bold;
-  }
-  
+    box-sizing: border-box;
+    font: 'Poppins', sans-serif;
+}
