@@ -8,7 +8,11 @@
   }
   
   body {
-    background: #a020f0;
+   
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+
   }
   
   ::selection {
