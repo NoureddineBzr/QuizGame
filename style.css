@@ -9,7 +9,7 @@
   
   body {
    
-    background-image: url('/background.jpg');
+    background-color: #2092f0;
     background-size: cover;
     background-position: center;
 
@@ -17,7 +17,7 @@
   
   ::selection {
     color: #fff;
-    background: #a020f0;
+    background: #2092f0;
   }
   
   .start_btn,
@@ -43,7 +43,7 @@
   .start_btn button {
     font-size: 25px;
     font-weight: 500;
-    color: #a020f0;
+    color: #2092f0;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -85,7 +85,7 @@
   
   .info_box .info-list .info span {
     font-weight: 600;
-    color: #a020f0;
+    color: #2092f0;
   }
   .info_box .buttons {
     height: 60px;
@@ -106,7 +106,7 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #a020f0;
+    border: 1px solid #2092f0;
     transition: all 0.3s ease;
   }
   
@@ -139,7 +139,7 @@
   }
   
   .quiz_box header .timer {
-    color: #682a8f;
+    color: #2092f0;
     background: #cce5ff;
     border: 1px solid #b8daff;
     height: 45px;
@@ -176,7 +176,7 @@
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #a020f0;
+    background: #2092f0;
   }
   
   section {
@@ -213,7 +213,7 @@
   }
   
   section .option_list .option:hover {
-    color: #601391;
+    color: #2092f0;
     background: #cce5ff;
     border: 1px solid #b8daff;
   }
@@ -290,8 +290,8 @@
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #a020f0;
-    border: 1px solid #a020f0;
+    background: #2092f0;
+    border: 1px solid #2092f0;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -300,7 +300,7 @@
   }
   
   footer button:hover {
-    background: #7803c0;
+    background: #2092f0;
   }
   
   footer button.show {
@@ -326,7 +326,7 @@
   
   .result_box .icon {
     font-size: 100px;
-    color: #a020f0;
+    color: #2092f0;
     margin-bottom: 10px;
   }
   
@@ -362,26 +362,70 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #a020f0;
+    border: 1px solid #2092f0;
     transition: all 0.3s ease;
   }
   
   .buttons button.restart {
     color: #fff;
-    background: #a020f0;
+    background: #2092f0;
   }
   
   .buttons button.restart:hover {
-    background: #8304d1;
+    background: #2092f0;
   }
   
   .buttons button.quit {
-    color: #a020f0;
+    color: #2092f0;
     background: #fff;
   }
   
   .buttons button.quit:hover {
     color: #fff;
-    background: #8604d6;
+    background: #2092f0;
   }
   
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .quiz_box,
+  .result_box,
+  .info_box {
+    width: 90%; 
+    max-width: 500px; 
+  }
+  
+  .start_btn button {
+    font-size: 20px;
+  }
+  
+  section .que_text {
+    font-size: 20px; 
+  }
+  
+  section .option_list .option {
+    font-size: 15px; 
+  }
+  
+  footer button {
+    font-size: 16px; 
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .info_box,
+  .quiz_box,
+  .result_box {
+    padding: 15px; 
+  }
+  
+  .info_box .info-title,
+  .quiz_box header,
+  .result_box .icon {
+    font-size: 18px; 
+  }
+}
